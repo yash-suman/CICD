@@ -1,4 +1,4 @@
 FROM node
 EXPOSE 8082
-ADD * .
+ADD * /
 ENTRYPOINT ["node" "install"]
