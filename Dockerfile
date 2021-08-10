@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM nodejs
 EXPOSE 8082
 ADD * .
 ENTRYPOINT ["node" "install"]
