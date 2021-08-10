@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8082
-ADD target/* .
+ADD * /
 ENTRYPOINT ["node" "install"]
